@@ -1,3 +1,21 @@
+/*<<<<<<< HEAD
+=======*/
+.fondo1{
+	background-image: url('../img/background/hero.jpg');
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	height: 600px;
+}
+.boton{
+	background-color: white;
+	opacity: 0.6;
+	width: 140px;
+	height: 50px;
+	margin: 2%;
+	border-radius: 10%;
+}
+/*>>>>>>>*/
 /*SECCIONES DE OPCIONES*/
 /*ICONOS*/
 i {
@@ -19,3 +37,4 @@ i {
 .pd1 {
 	padding: 0 8%; 
 }
+
