@@ -1,0 +1,21 @@
+/*SECCIONES DE OPCIONES*/
+/*ICONOS*/
+i {
+	color: #0dc0c0;
+}
+.blue {
+	color: #00dfb6;
+}
+/*TEXTO*/
+.mgn {
+	margin-top: 3%;
+}
+.mgn1 {
+	margin-top: 5%;
+}
+.mgn2 {
+	margin-top: 7%;
+}
+.pd1 {
+	padding: 0 8%; 
+}
