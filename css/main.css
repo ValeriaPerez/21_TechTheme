@@ -1,5 +1,11 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
 /*<<<<<<< HEAD
 =======*/
+.acomodo {
+	display: inline-block;
+}
 .fondo1{
 	background-image: url('../img/background/hero.jpg');
 	background-position:center top;
@@ -7,18 +13,26 @@
 	background-size: 100%;
 	height: 600px;
 }
+.black {
+	opacity: 0.7;
+	height: 600px;
+}
 .boton{
-	background-color: white;
-	opacity: 0.6;
+	background-color: #d8d8d8;
+}
+.boton, .boton2 {
 	width: 140px;
 	height: 50px;
 	margin: 2%;
 	border-radius: 10%;
 }
+button {
+	border: none;
+}
 /*>>>>>>>*/
 /*SECCIONES DE OPCIONES*/
 /*ICONOS*/
-i {
+i, .menu {
 	color: #0dc0c0;
 }
 .blue {
@@ -34,7 +48,80 @@ i {
 .mgn2 {
 	margin-top: 7%;
 }
+.mgn3 {
+	margin-top: 12%;
+}
 .pd1 {
 	padding: 0 8%; 
 }
-
+/*SECCIÓN PORTAFOLIO*/
+/*BOTONES*/
+.bt, .bt2, .color1 {
+	background-color: #0B0B61;
+}
+.bt, .opcion, .trans {
+	padding: 1% 1%;
+}
+.bt2 {
+	padding: 2% 8%;
+}
+.letra {
+	color: black;
+}
+.foto, .opcion, .rectangulo {
+	background-color: white;
+}
+/*FOTOS*/
+.foto {
+	padding: 2% 2% 0 2%;
+}
+.fto {
+	width: 100%;
+}
+/*IMAGEN EDIFICIOS*/
+/*FONDO*/
+.edificio {
+	background-image: url('../img/background/city.jpg');
+	background-size: 100% 190%;
+}
+.fondo3 {
+	opacity: 0.7;
+}
+.fondo3, .black {
+	background-color: black;
+}
+.edificio, .fondo3 {
+	height: 450px;
+}
+/*BOTON TRANSPARENTE*/
+.trans {
+	opacity: 0.4;
+	background-color: gray;
+}
+.frase {
+	margin-top: 15%;
+	font-size: 20px;
+}
+/*PAQUETES*/
+/*SECCIONES*/
+.color2 {
+	background-color: #0dc0c0;
+}
+.rectangulo {
+	padding: 10% 2% 10% 10%;
+}
+.letter {
+	margin: 20% 0;
+}
+.title {
+	margin: 10% 0;
+}
+hr {
+	margin: 0 10%;
+}
+.title, .star, .le, button h3 {
+	color: white;
+}
+p strong {
+	font-size: 22px;
+}

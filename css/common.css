@@ -1,4 +1,18 @@
-a{
+a {
 	text-decoration: none;
 	color: white;
+}
+.fondo {
+	background-color: #d8d8d8;
+}
+
+/*CARACTERISTICAS*/
+.mgn0 {
+	margin-top: 1%;
+}
+.mgb {
+	padding-bottom: 3%;
+}
+.mgp {
+	margin-bottom: 3%;
 }
