@@ -38,16 +38,57 @@ i, .menu {
 .blue {
 	color: #00dfb6;
 }
-/*TEXTO*/
-.mgn {
-	margin-top: 3%;
+/*Fondo Laptos*/
+.fondo2, .fondo3 {
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	height: 600px;
 }
-.mgn1 {
-	margin-top: 5%;
+.fondo2{
+	background-color: #D8D8D8;
+	background-image: url('../img/laptop-features.png');
 }
-.mgn2 {
-	margin-top: 7%;
+/*Pelirroja*/
+.fotocustomer{
+	border-radius: 100%;
+	width: 10%;
 }
+/*Fondo contact us*/
+.fondo3{
+	background-image: url('../img/background/contactus.jpg');
+	opacity: 0.9;
+}
+/*Input*/
+input{
+	height: 30px;
+	width: 400px;
+	padding: 5px;
+	margin: 10px;
+	opacity: 0.2;	
+}
+.alta {
+	height: 150px;
+}
+.mediana{
+	height: 40px;
+}
+.botonsubmit{
+	width: 100px;
+	height: 40px;
+	border-style: 
+	background-color:#58FAF4 ;
+	position: relative;
+	left: 159px;	
+}
+.input{
+	position: relative;
+	left: 150px;
+}/*iconos*/
+.fa-map-marker, .fa-phone{
+	color:white;
+}
+/*<<<<<<<*/
 .mgn3 {
 	margin-top: 12%;
 }
@@ -84,13 +125,13 @@ i, .menu {
 	background-image: url('../img/background/city.jpg');
 	background-size: 100% 190%;
 }
-.fondo3 {
+.fondoE {
 	opacity: 0.7;
 }
-.fondo3, .black {
+.fondoE, .black {
 	background-color: black;
 }
-.edificio, .fondo3 {
+.edificio, .fondoE {
 	height: 450px;
 }
 /*BOTON TRANSPARENTE*/
@@ -125,3 +166,10 @@ hr {
 p strong {
 	font-size: 22px;
 }
+footer div i {
+	color: black;
+}
+.fondo4{
+	background: #585858;
+/*>>>>>>> d7dca99685b14186b805c7b29d3a7d63a4450077
+}*/
