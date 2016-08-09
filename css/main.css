@@ -24,17 +24,61 @@ i {
 .blue {
 	color: #00dfb6;
 }
-/*TEXTO*/
-.mgn {
-	margin-top: 3%;
+/*Fondo Laptos*/
+.fondo2{
+	background-color: #D8D8D8;
+	background-image: url('../img/laptop-features.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	height: 600px;
 }
-.mgn1 {
-	margin-top: 5%;
+/*Pelirroja*/
+.fotocustomer{
+	border-radius: 100%;
+	width: 10%;
 }
-.mgn2 {
-	margin-top: 7%;
+/*Fondo contact us*/
+.fondo3{
+	background-image: url('../img/background/contactus.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	height: 600px;
+	opacity: 0.9;
 }
-.pd1 {
-	padding: 0 8%; 
+/*Input*/
+input{
+	height: 30px;
+	width: 400px;
+	padding: 5px;
+	margin: 10px;
+	opacity: 0.2;	
 }
-
+.alta {
+	height: 150px;
+}
+.mediana{
+	height: 40px;
+}
+.botonsubmit{
+	width: 100px;
+	height: 40px;
+	border-style: 
+	background-color:#58FAF4 ;
+	position: relative;
+	left: 159px;	
+}
+.input{
+	position: relative;
+	left: 150px;
+}/*iconos*/
+.fa-map-marker, .fa-phone{
+	color:white;
+}
+footer div i{
+	color: black;
+}
+.fondo4{
+	background: #585858;
+}
