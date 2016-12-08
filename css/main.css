@@ -6,6 +6,8 @@
 .acomodo {
 	display: inline-block;
 }
+.cambioColor {color: white;}
+
 .fondo1{
 	background-image: url('../img/background/hero.jpg');
 	background-position:center top;
@@ -32,7 +34,7 @@ button {
 /*>>>>>>>*/
 /*SECCIONES DE OPCIONES*/
 /*ICONOS*/
-i, .menu {
+i, .cambioColor:hover  {
 	color: #0dc0c0;
 }
 .blue {
@@ -97,7 +99,7 @@ input{
 }
 /*SECCIÓN PORTAFOLIO*/
 /*BOTONES*/
-.bt, .bt2, .color1 {
+.bt, .bt2, .coloZ {
 	background-color: #0B0B61;
 }
 .bt, .opcion, .trans {
@@ -109,8 +111,12 @@ input{
 .letra {
 	color: black;
 }
-.foto, .opcion, .rectangulo {
+.foto, .coloW, .rectangulo {
 	background-color: white;
+}
+
+.coloW:hover, .coloZ:hover{
+	background-color: #0dc0c0;
 }
 /*FOTOS*/
 .foto {
@@ -145,9 +151,6 @@ input{
 }
 /*PAQUETES*/
 /*SECCIONES*/
-.color2 {
-	background-color: #0dc0c0;
-}
 .rectangulo {
 	padding: 10% 2% 10% 10%;
 }
@@ -156,6 +159,9 @@ input{
 }
 .title {
 	margin: 10% 0;
+}
+.coloZ {
+	background-color: 
 }
 hr {
 	margin: 0 10%;
@@ -171,5 +177,4 @@ footer div i {
 }
 .fondo4{
 	background: #585858;
-/*>>>>>>> d7dca99685b14186b805c7b29d3a7d63a4450077
-}*/
+/*>>>>>>> }*/
